@@ -136,7 +136,7 @@ repeatBtn.addEventListener("click", repeatMyParam);
 
 // CODE HERE
 function choiceQuery() {
-  axios.get(`http://localhost:3000/query-test/mychoice`).then((res) => {
+  axios.get(`http://localhost:3000/query-test?my=choice`).then((res) => {
     console.log(res.data);
   });
 }
